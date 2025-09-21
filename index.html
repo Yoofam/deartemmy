@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday Temmy 🎉</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="bg-music" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Happy Birthday <span class="name">Temmy</span> 🎉💖</h1>
+        <p class="subtitle">A special surprise just for you</p>
+
+        <div id="envelope" class="envelope" role="button" tabindex="0" aria-label="Open surprise letter">
+          <div class="flap">Click me 💌</div>
+          <div class="card">
+            <div class="letter">
+              <div class="letter-inner">
+<h2>Happy Birthday to my incredible friend!</h2>
+<p>On a day like today, the world became a brighter, funnier, and infinitely more beautiful place because you entered it. It feels like just yesterday we were running around playing together and living life at it's best , and now look at the amazing woman you've become.</p>
+<p>I want you to know, today and every day, just how special you are. Your birthday is the perfect excuse for me to list just a few reasons why: I admire your strength, which you somehow always manage to blend with so much grace. I adore your sense of humor that can pull me out of the worst mood instantly. I am constantly inspired by your passion and the way you fearlessly chase what you want. But most of all, I am so deeply grateful for your heart—your endless capacity for kindness, your empathy, and the way you make everyone around you feel seen, heard, and loved.</p>
+<p>You are not just a friend to me; you are a confidante, a partner-in-crime, and a source of unwavering support. Thank you for the countless laughs, the shoulder to cry on, the unforgettable memories, and for all the times you've just gotten me, without me even having to say a word. My life is so much richer with you in it.</p>
+<p>Today, I hope you are surrounded by so much joy, laughter, and love that your heart feels like it's bursting. I hope you get spoiled rotten, eat the most delicious cake, and feel every single bit as celebrated as you deserve to be. You have given so much light to others, and today is all about that light shining right back on you.</p>
+<p>May this new chapter of your life bring you even more reasons to smile, dreams that take flight, and adventures that leave you breathless. You deserve the absolute world, and I can't wait to see all the incredible things this next year has in store for you.</p>
+<p>I am so proud to be your friend and so excited to celebrate you today. Have the most wonderful birthday, my dear. You are loved more than you know.</p>
+<p><strong>All my love,<br>Victor</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="btn" href="#gallery">See Photos</a>
+      </div>
+    </header>
+
+    <main id="gallery" class="gallery-section">
+      <h2>Moments with Temmy</h2>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </main>
+
+    <footer class="closing">
+      <h3>I love you, Temmy! 🥳✨</h3>
+      <p>May your year be filled with light and big adventures.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="close" id="lightbox-close" aria-label="Close">×</button>
+      <img id="lightbox-img" src="" alt="Expanded photo" />
+      <button class="prev" id="prev-btn" aria-label="Previous photo">‹</button>
+      <button class="next" id="next-btn" aria-label="Next photo">›</button>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+
+  <script src="photo-manifest.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

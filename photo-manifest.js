@@ -1,0 +1,1 @@
+window.__PHOTO_MANIFEST = ['assets/1758479073418.jpg', 'assets/1758479073431.jpg', 'assets/1758479073442.jpg', 'assets/1758479073453.jpg', 'assets/1758479073465.jpg', 'assets/1758479073478.jpg', 'assets/1758479073489.jpg', 'assets/1758479073499.jpg', 'assets/1758479073511.jpg', 'assets/1758479073524.jpg'];
